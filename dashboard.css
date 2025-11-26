@@ -1,0 +1,102 @@
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: linear-gradient(120deg, #00ffa3 20%, #0073ff 80%);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #009fd9;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 3px 24px rgba(0,76,255,.17);
+}
+
+header h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.7rem;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 32px rgba(0,76,255,.14);
+  text-align: center;
+  max-width: 350px;
+}
+
+.profile-card img {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.profile-card h2 {
+  color: #0073ff;
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  color: #019257;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-btns {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: .7rem 1.7rem;
+  border-radius: 2rem;
+  border: none;
+  font-weight: bold;
+  font-size: 1.05rem;
+  text-decoration: none;
+  transition: background .2s;
+  box-shadow: 0 2px 12px rgba(0,76,255,.11);
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ig {
+  background: linear-gradient(to right, #fc4a1a, #f7b733);
+  color: #fff;
+}
+.ig:hover {
+  background: linear-gradient(to right, #f94a1a, #eaa733);
+}
+
+.wa {
+  background: linear-gradient(to right, #00e676, #009688);
+  color: #fff;
+}
+.wa:hover {
+  background: linear-gradient(to right, #00c673, #008688);
+}
+
+.logout {
+  background: #c02942;
+  color: #fff;
+  margin-top: 1rem;
+}
+.logout:hover {
+  background: #80102a;
+}

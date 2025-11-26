@@ -1,0 +1,62 @@
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: linear-gradient(135deg, #00eaff, #0073ff 70%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: rgba(255,255,255,.95);
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 32px rgba(0,76,255,.11);
+  text-align: center;
+}
+
+h1 {
+  color: #009fd9;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  color: #019257;
+  font-weight: bold;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin-top: .4rem;
+  margin-bottom: 1rem;
+  border: 2px solid #009fd9;
+  border-radius: .4rem;
+}
+
+button {
+  background: #009fd9;
+  color: #fff;
+  padding: .8rem 2rem;
+  border: none;
+  border-radius: .6rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  box-shadow: 0 3px 12px rgba(0,76,255,.09);
+  transition: background .2s;
+}
+button:hover {
+  background: #0073ff;
+}
+
+#errorMsg {
+  color: #c02942;
+  margin-top: .8rem;
+  font-weight: bold;
+}

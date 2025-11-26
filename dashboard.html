@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Halaman Profil</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <header>
+    <h1>Tugas Membuat Web</h1>
+  </header>
+  <main>
+    <div class="profile-card">
+      <img src="https://img.icons8.com/color/96/volleyball.png" alt="Icon Voli">
+      <h2>Nama: Bagas Dwi Santoso</h2>
+      <p class="intro">Halo! Saya seorang siswa kelas XI TJKT 2 Hobi saya adalah bermain bola voli dan saya juga mengikuti ekstrakulikuler bola voli di SMK Ma'arif</p>
+      <div class="social-btns">
+        <a href="https://www.instagram.com/mazbgz?igsh=eGR6NHpmOGNhZGk3" target="_blank" class="btn ig">Instagram</a>
+        <a href="https://wa.me/qr/5MTQGLGNSIBND1" target="_blank" class="btn wa">WhatsApp</a>
+      </div>
+      <button onclick="logout()" class="btn logout">Logout</button>
+    </div>
+  </main>
+  <script>
+    function logout() {
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>
